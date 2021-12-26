@@ -236,7 +236,7 @@ picture img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 4rem 0;
+	padding: 4rem 0 1rem;
 	font-family: Barlow;
 	font-weight: 600;
 }
@@ -316,9 +316,14 @@ picture img {
 .attribution {
 	font-size: 11px;
 	text-align: center;
+	margin-top: 2rem;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+	text-decoration: none;
 }
 
 /* -------------------for mobile screen size--------------------- */
