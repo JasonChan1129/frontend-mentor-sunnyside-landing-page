@@ -322,24 +322,7 @@ picture img {
 }
 
 /* -------------------for mobile screen size--------------------- */
-
-@media only screen and (max-width: 550px) {
-	.header {
-		background-image: url('./images/mobile/image-header.jpg');
-	}
-
-	.nav-hamburger {
-		display: block;
-	}
-
-	.nav {
-		width: 90%;
-	}
-
-	.nav-buttons {
-		display: none;
-	}
-
+@media only screen and (max-width: 768px) {
 	.content-1 {
 		text-align: center;
 		padding: 20% 10%;
@@ -375,5 +358,27 @@ picture img {
 
 	.testimonials footer {
 		margin-bottom: 3rem;
+	}
+}
+
+/* -------------------for hamburger nav--------------------- */
+@media only screen and (max-width: 602px) {
+	.nav-hamburger {
+		display: block;
+	}
+
+	.nav {
+		width: 90%;
+	}
+
+	.nav-buttons {
+		display: none;
+	}
+}
+
+/* -------------------for header img--------------------- */
+@media only screen and (max-width: 550px) {
+	.header {
+		background-image: url('./images/mobile/image-header.jpg');
 	}
 }
